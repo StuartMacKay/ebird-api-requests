@@ -4,16 +4,16 @@
 
 __version__ = "3.4.2"
 
-from ebird.api.checklists import get_checklist, get_visits
-from ebird.api.client import Client
-from ebird.api.constants import LOCALES
-from ebird.api.hotspots import (
+from ebird.api.requests.checklists import get_checklist, get_visits
+from ebird.api.requests.client import Client
+from ebird.api.requests.constants import LOCALES
+from ebird.api.requests.hotspots import (
     get_hotspot,
     get_hotspots,
     get_location,
     get_nearby_hotspots,
 )
-from ebird.api.observations import (
+from ebird.api.requests.observations import (
     get_historic_observations,
     get_nearby_notable,
     get_nearby_observations,
@@ -23,10 +23,14 @@ from ebird.api.observations import (
     get_observations,
     get_species_observations,
 )
-from ebird.api.regions import get_adjacent_regions, get_region, get_regions
-from ebird.api.species import get_species_list
-from ebird.api.statistics import get_top_100, get_totals
-from ebird.api.taxonomy import (
+from ebird.api.requests.regions import (
+    get_adjacent_regions,
+    get_region,
+    get_regions,
+)
+from ebird.api.requests.species import get_species_list
+from ebird.api.requests.statistics import get_top_100, get_totals
+from ebird.api.requests.taxonomy import (
     get_taxonomy,
     get_taxonomy_forms,
     get_taxonomy_groups,

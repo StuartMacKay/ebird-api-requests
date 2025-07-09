@@ -4,7 +4,7 @@ import json
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
-from ebird.api import constants
+from ebird.api.requests import constants
 
 _parameter_defaults = {
     "back": constants.DEFAULT_BACK,
