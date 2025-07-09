@@ -3,8 +3,8 @@
 
 # eBird API
 
-eBird API provides a set of wrapper functions for accessing the end-points
-in the eBird API 2.0.
+eBird API Requests provides a set of wrapper functions for accessing the
+end-points in the eBird API 2.0.
 
 ## Install
 
@@ -39,7 +39,7 @@ what you want to do - they will be interested to hear it.
 ```python
 import os
 
-from ebird.api import get_observations
+from ebird.api.requests import get_observations
 
 # Always store secrets outside the code, so you don't accidentally
 # commit them. Environment variables are ideal for this.
@@ -65,7 +65,7 @@ regions:
 ```python
 import os
 
-from ebird.api import get_observations
+from ebird.api.requests import get_observations
 
 api_key = os.environ["EBIRD_API_KEY"]
 
@@ -87,7 +87,7 @@ or taxonomy:
 ```python
 import os
 
-from ebird.api import get_observations
+from ebird.api.requests import get_observations
 
 api_key = os.environ["EBIRD_API_KEY"]
 
@@ -102,7 +102,7 @@ species:
 ```python
 import os
 
-from ebird.api import get_nearby_observations
+from ebird.api.requests import get_nearby_observations
 
 api_key = os.environ["EBIRD_API_KEY"]
 
@@ -119,7 +119,7 @@ a small number of species:
 ```python
 import os
 
-from ebird.api import (
+from ebird.api.requests import (
     get_notable_observations,
     get_nearby_notable,
     get_species_observations,
@@ -146,7 +146,7 @@ For the more travel-minded you can also find out the nearest place to see a give
 ```python
 import os
 
-from ebird.api import get_nearest_species
+from ebird.api.requests import get_nearest_species
 
 api_key = os.environ["EBIRD_API_KEY"]
 
@@ -167,7 +167,7 @@ checklist. You can then call get_checklist() to get the list of observations.
 ```python
 import os
 
-from ebird.api import get_visits, get_checklist
+from ebird.api.requests import get_visits, get_checklist
 
 api_key = os.environ["EBIRD_API_KEY"]
 
@@ -192,7 +192,7 @@ on the location of a given hotspot.
 ```python
 import os
 
-from ebird.api import get_hotspots, get_nearby_hotspots, get_hotspot
+from ebird.api.requests import get_hotspots, get_nearby_hotspots, get_hotspot
 
 api_key = os.environ["EBIRD_API_KEY"]
 
@@ -219,7 +219,7 @@ by a region use get_region().
 ```python
 import os
 
-from ebird.api import get_regions, get_adjacent_regions, get_region
+from ebird.api.requests import get_regions, get_adjacent_regions, get_region
 
 api_key = os.environ["EBIRD_API_KEY"]
 
@@ -250,7 +250,7 @@ that are used in the other API calls.
 ```python
 import os
 
-from ebird.api import get_taxonomy, get_taxonomy_forms, get_taxonomy_versions
+from ebird.api.requests import get_taxonomy, get_taxonomy_forms, get_taxonomy_versions
 
 api_key = os.environ["EBIRD_API_KEY"]
 
@@ -283,7 +283,7 @@ lots of people are out trying to get the greatest number of species.
 import os
 
 from datetime import date
-from ebird.api import get_top_100, get_totals
+from ebird.api.requests import get_top_100, get_totals
 
 api_key = os.environ["EBIRD_API_KEY"]
 
@@ -303,7 +303,7 @@ have to keep passing them as arguments.
 ```python
 import os
 
-from ebird.api import Client
+from ebird.api.requests import Client
 
 api_key = os.environ["EBIRD_API_KEY"]
 locale = 'es'
@@ -325,8 +325,8 @@ only returns JSON.
 
 ## Compatibility
 
-ebird-api works with currently supported versions of Python, 3.8+. However,
-it is known to work with earlier versions, at least 3.5 - 3.7, without any
+ebird-api works with currently supported versions of Python, 3.10+. However,
+it is known to work with earlier versions, at least 3.5 - 3.8, without any
 problems.
 
 ## Troubleshooting
