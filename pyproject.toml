@@ -14,11 +14,10 @@ classifiers = [
     "Operating System :: OS Independent",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
     "Programming Language :: Python :: Implementation :: CPython",
     "Natural Language :: English",
     "Topic :: Utilities",
@@ -29,7 +28,7 @@ keywords = ["eBird", "API", "client"]
 license = {text = "MIT License"}
 name = "ebird-api"
 readme = "README.md"
-requires-python = ">= 3.8"
+requires-python = ">= 3.10"
 version = "3.4.2"
 
 [project.urls]
@@ -98,7 +97,7 @@ legacy_tox_ini = """
 requires =
     tox>=4.2
     tox-uv>=1.11.3
-envlist = py38, py39, py310, py311, py312
+envlist = py310, py311, py312, py313
 
 [testenv]
 commands = pytest
