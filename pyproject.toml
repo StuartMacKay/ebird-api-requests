@@ -23,7 +23,7 @@ classifiers = [
     "Topic :: Utilities",
     "Topic :: Internet",
 ]
-description = 'Wrapper for accessing the eBird API'
+description = 'A python library for accessing the eBird API, version 2.0'
 keywords = ["eBird", "API", "client"]
 license = {text = "MIT License"}
 name = "ebird-api"
