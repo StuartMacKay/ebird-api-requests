@@ -26,7 +26,7 @@ classifiers = [
 description = 'A python library for accessing the eBird API, version 2.0'
 keywords = ["eBird", "API", "client"]
 license = {text = "MIT License"}
-name = "ebird-api"
+name = "ebird-api-requests"
 readme = "README.md"
 requires-python = ">= 3.10"
 version = "4.0.0"

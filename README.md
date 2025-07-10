@@ -9,7 +9,7 @@ end-points in the eBird API 2.0.
 ## Install
 
 ```sh
-pip install ebird-api
+pip install ebird-api-requests
 ```
 
 ## Usage

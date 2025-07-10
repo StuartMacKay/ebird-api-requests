@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 This project adheres to [PEP440](https://www.python.org/dev/peps/pep-0440/)
 and by implication, [Semantic Versioning](http://semver.org/).
 
+## [Unreleased]
+- Renamed the package so it meshes better with the reusable django app,
+  ebird-api-data.
+
 ## [4.0.0] - 2025-07-09
 - Moved the package to ebird.api.requests to make space for other projects.
 - Changed the minimum supported python version to 3.10
