@@ -4,7 +4,7 @@ requires = ["setuptools >= 61.0"]
 
 [project]
 authors = [
-  {name = "Project Babbler", email = "projectbabbler@gmail.com"},
+  {name = "Stuart MacKay", email = "smackay@flagstonesoftware.com"},
 ]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
