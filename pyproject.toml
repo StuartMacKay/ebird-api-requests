@@ -32,9 +32,9 @@ requires-python = ">= 3.10"
 version = "4.0.0"
 
 [project.urls]
-Repository = "https://github.com/ProjectBabbler/ebird-api.git"
-Issues = "https://github.com/ProjectBabbler/ebird-api/issues"
-Changelog = "https://github.com/ProjectBabbler/ebird-api/blob/master/CHANGELOG.md"
+Repository = "https://github.com/StuartMacKay/ebird-api-requests.git"
+Issues = "https://github.com/StuartMacKay/ebird-api-requests/issues"
+Changelog = "https://github.com/StuartMacKay/ebird-api-requests/blob/master/CHANGELOG.md"
 
 [tool.bumpversion]
 current_version = "4.0.0"
