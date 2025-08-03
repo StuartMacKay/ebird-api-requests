@@ -1,7 +1,7 @@
-[![PyPI version](https://badge.fury.io/py/ebird-api.svg)](https://badge.fury.io/py/ebird-api)
-[![Supported Python Versions](https://img.shields.io/pypi/pyversions/ebird-api.svg)](https://img.shields.io/pypi/pyversions/ebird-api)
+[![PyPI version](https://badge.fury.io/py/ebird-api-requests.svg)](https://badge.fury.io/py/ebird-api-requests)
+[![Supported Python Versions](https://img.shields.io/pypi/pyversions/ebird-api-requests.svg)](https://img.shields.io/pypi/pyversions/ebird-api-requests)
 
-# eBird API
+# eBird API Requests
 
 eBird API Requests provides a set of wrapper functions for accessing the
 end-points in the eBird API 2.0.
@@ -344,6 +344,11 @@ socket.setdefaulttimeout(30)
 
 Thirty seconds is a reasonable figure, however you might change it if your
 internet connection is slow or the eBird servers are busy.
+
+## Project Information
+
+* Issues: https://github.com/ebirders/ebird-api-requests
+* Repository: https://github.com/ebirders/ebird-api-requests
 
 ## Links
 
