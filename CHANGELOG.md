@@ -8,6 +8,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 This project adheres to [PEP440](https://www.python.org/dev/peps/pep-0440/)
 and by implication, [Semantic Versioning](http://semver.org/).
 
+## Latest
+- Changed validation of subnational1 codes to allow single characters.
+  These were seen in Sierra Leone, where country is divided into four
+  provinces, Northern, Southern, Eastern and Western.
+
 ## [4.0.1] - 2025-07-10
 - Renamed the package so it meshes better with the reusable django app,
   ebird-api-data.

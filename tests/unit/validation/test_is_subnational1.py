@@ -9,6 +9,9 @@ class IsSubnational1Tests(unittest.TestCase):
     def test_is_subnational1(self):
         self.assertTrue(is_subnational1("US-NV"))
 
+    def test_single_letter_is_subnational1(self):
+        self.assertTrue(is_subnational1("US-0"))
+
     def test_invalid_code_is_not_subnational1(self):
         self.assertFalse(is_subnational1("U"))
         self.assertFalse(is_subnational1("US-"))
